@@ -156,13 +156,8 @@ class InfoPreco extends StatelessWidget {
   }
 }
 
-class AcoesRapidas extends StatefulWidget {
-  @override
-  State<AcoesRapidas> createState() => _AcoesRapidasState();
-}
-
-class _AcoesRapidasState extends State<AcoesRapidas> {
-  bool _favorito = false; 
+class AcoesRapidas extends StatelessWidget {
+  const AcoesRapidas({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -170,20 +165,10 @@ class _AcoesRapidasState extends State<AcoesRapidas> {
       padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          const Icon(Icons.share_outlined, color: Color(0xFF593622)),
-          const Icon(Icons.chat_bubble_outline, color: Color(0xFF593622)),
-          GestureDetector(
-            onTap: () {
-              setState(() {
-                _favorito = !_favorito; 
-              });
-            },
-            child: Icon(
-              _favorito ? Icons.favorite : Icons.favorite_border,
-              color: _favorito ? Colors.red : const Color(0xFF593622),
-            ),
-          ),
+        children: const [
+          Icon(Icons.share_outlined, color: Color(0xFF593622)),
+          Icon(Icons.chat_bubble_outline, color: Color(0xFF593622)),
+          Icon(Icons.favorite_border, color: Color(0xFF593622)),
         ],
       ),
     );
@@ -209,7 +194,7 @@ class DescricaoProduto extends StatelessWidget {
           texto,
           textAlign: TextAlign.justify,
           style: const TextStyle(
-              fontSize: 15, color: Color(0xFF593622), height: 1.6),
+          fontSize: 15, color: Color(0xFF593622), height: 1.6),
         ),
       ),
     );
