@@ -1,17 +1,15 @@
-# atividadepratica1
+# 📱 Projeto de Sistemas Móveis
 
-A new Flutter project.
+Este projeto foi desenvolvido como parte dos meus estudos na disciplina de **Sistemas Móveis**, com o objetivo de praticar conceitos de desenvolvimento de aplicativos utilizando Flutter.
 
-## Getting Started
+A aplicação consiste em uma interface de exibição de produto, com foco em organização de layout, componentização e experiência visual do usuário.
 
-This project is a starting point for a Flutter application.
+💎 O design foi inspirado na estética da marca Cartier, buscando transmitir elegância, sofisticação e minimalismo na apresentação dos elementos.
 
-A few resources to get you started if this is your first Flutter project:
+Este projeto tem caráter acadêmico e foi criado para fins de aprendizado e aprimoramento das minhas habilidades em desenvolvimento mobile.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
+✨ Tecnologias utilizadas:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* Dart
